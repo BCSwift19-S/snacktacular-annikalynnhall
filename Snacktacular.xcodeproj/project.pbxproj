@@ -22,6 +22,7 @@
 		9A637D0E2252489E00147896 /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A637D0D2252489E00147896 /* Spot.swift */; };
 		9A637D10225249B300147896 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A637D0F225249B300147896 /* Spots.swift */; };
 		9ACE86B42264018F00F473CF /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE86B32264018F00F473CF /* Review.swift */; };
+		9ACE86B62264091900F473CF /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE86B52264091900F473CF /* Reviews.swift */; };
 		9AE24AC72263BBFD00D443EF /* Double+roundTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE24AC62263BBFD00D443EF /* Double+roundTo.swift */; };
 		9AE24AC92263C03400D443EF /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE24AC82263C03400D443EF /* UIView+addBorder.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		9A637D0D2252489E00147896 /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		9A637D0F225249B300147896 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		9ACE86B32264018F00F473CF /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		9ACE86B52264091900F473CF /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		9AE24AC62263BBFD00D443EF /* Double+roundTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+roundTo.swift"; sourceTree = "<group>"; };
 		9AE24AC82263C03400D443EF /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
 		BF35FFEDEA02E857F375D245 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				9A637D0D2252489E00147896 /* Spot.swift */,
 				9A637D0F225249B300147896 /* Spots.swift */,
 				9ACE86B32264018F00F473CF /* Review.swift */,
+				9ACE86B52264091900F473CF /* Reviews.swift */,
 				3E8390E1206597F600512DEA /* SpotsListViewController.swift */,
 				3E0F960920659D9000AE450D /* SpotsTableViewCell.swift */,
 				3E0F960B2065A17500AE450D /* SpotDetailViewController.swift */,
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACE86B62264091900F473CF /* Reviews.swift in Sources */,
 				3E8390E2206597F600512DEA /* SpotsListViewController.swift in Sources */,
 				3E0F96102065AC1A00AE450D /* SpotPhotosCollectionViewCell.swift in Sources */,
 				3E0F960C2065A17500AE450D /* SpotDetailViewController.swift in Sources */,
