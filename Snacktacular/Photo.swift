@@ -22,4 +22,9 @@ class Photo {
         self.date = date
         self.documentID = documentID
     }
+    
+    convenience init(){
+        let postedBy = Auth.auth().currentUser?.email ?? "unknown user"
+        self.init(image: UIImage(), description: "", postedBy: postedBy, date: Date(), documentID: "")
+    }
 }
