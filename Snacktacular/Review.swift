@@ -50,6 +50,8 @@ class Review {
     func saveData(spot: Spot, completed: @escaping (Bool) -> ()){
         let db = Firestore.firestore()
         
+        
+        
         let dataToSave = self.dictionary
         if self.documentID != "" {
             let ref = db.collection("spots").document(spot.documentID).collection("reviews").document(self.documentID)
