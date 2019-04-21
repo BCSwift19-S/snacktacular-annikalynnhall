@@ -8,6 +8,7 @@
 
 import Foundation
 import Firebase
+import FirebaseFirestore
 
 class Reviews{
     var reviewArray = [Review]()
